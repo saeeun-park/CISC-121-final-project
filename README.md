@@ -1,24 +1,18 @@
----
-title: BubbleSortCISC121
-colorFrom: green
-colorTo: yellow
-sdk: gradio
-sdk_version: 6.0.2
-app_file: app.py
-pinned: false
-short_description: bubble sort
-emoji: 📊
----
+# Algorithm Name: Bubble Sort
+## Demo screenshot: 
+
+![image](https://cdn-uploads.huggingface.co/production/uploads/692883ec0408c2ce1a0fe935/fsXuYbcHrR63FctbQ6i2K.png)
+
 This project is a simple web app that shows the step-by-step process of the Bubble Sort algorithm.
 It takes a list of numbers and displays each step of the sorting process so users can clearly inderstand how the algorithm works.
 
-# How it works: 
+## How it works: 
 1. User enters numbers separated by commas
 2. The app runs Bubble Sort on provided numbers.
 3. Every time two numbers are compared and swapped, the step is saved.
 4. All steps are shown in the output box.
 
-# Computational Thinking Breakdown
+## Computational Thinking Breakdown
 1. Decomposition:
    - input numbers
    - compare and swap
@@ -38,7 +32,7 @@ It takes a list of numbers and displays each step of the sorting process so user
    - Save the list after each pass
    - Display every step
 
-# Steps to Run
+## Steps to Run
 Local Run: 
 1. pip install gradio (to install gradio)
 2. python app.py (to run the app)
@@ -49,8 +43,8 @@ Using the app:
 2. Click "Run Sort"
 3. The app will show each Bubble Sort step
 
-# Hugging face link
+## Hugging face link
 https://huggingface.co/spaces/Seun1358/Bubble_Sort
-# Author & Acknowledgment
+## Author & Acknowledgment
 Author: Saeeun Park
 This project was created for the CISC121 Final Project.
